@@ -1,0 +1,30 @@
+.navbar {
+    padding: 40px;
+    background-color: whitesmoke;
+}
+
+.navbar nav {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar a.brand {
+    margin-right: auto;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.navbar a:last-child {
+    margin: 0 40px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid;
+}
+.navbar a:last-child:hover {
+    background-color: black;
+    color: white;
+}

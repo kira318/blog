@@ -1,0 +1,37 @@
+.create-blog {
+    padding: 50px 0 0 100px;
+}
+.create-blog span {
+    font-weight: bold;
+}
+.create-blog input {
+    padding: 10px;
+    margin: 10px 0 30px 0;
+    font-size: 1rem;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.create-blog textarea {
+    margin: 10px 0 30px 0;
+    padding: 10px;
+    font-size: 1rem;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.create-blog button {
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid;
+}
+.create-blog button:hover {
+    background-color: black;
+    color: white;
+}
+.create-blog input:focus{
+    outline: none;
+}
+.create-blog textarea:focus {
+    outline: none;
+}

@@ -1,0 +1,7 @@
+.blog {
+    padding: 50px 100px;
+    text-align: left;
+}
+.display-linebreak {
+    white-space: pre-line;
+}

@@ -1,0 +1,20 @@
+.blogList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.blogList .blog {
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 1;
+    display: inline-block;
+    padding: 30px;
+    margin: 0 10px 10px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.blogList a:last-child {
+    color: black;
+}
